@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities; */
 
+@import "tailwind/base";
+@import "tailwind/components";
+@import "tailwind/utilities";
+
 body {
     background-color: #0f0715;
     color: white;
