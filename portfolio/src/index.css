@@ -2,9 +2,7 @@
 @tailwind components;
 @tailwind utilities; */
 
-@import "tailwind/base";
-@import "tailwind/components";
-@import "tailwind/utilities";
+@import "./tailwind.css";
 
 body {
     background-color: #0f0715;
@@ -17,8 +15,6 @@ body {
     display: flex;
     width: 100%;
     justify-content: space-between;
-    /* position: fixed; */
-    /* flex-wrap: wrap; */
 }
 
 .nav-main h1 {
@@ -61,4 +57,4 @@ a {
     .nav-items {
         display: none;
     }
-}
+} 
