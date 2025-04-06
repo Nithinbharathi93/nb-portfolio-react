@@ -20,16 +20,16 @@ const Navbar = () => {
 
   return (
     <nav className="flex justify-between items-center w-full bg-[#0f0715] text-white p-4">
-      <img className="w-12 nav-logo" src={logo} alt="Logo" />
+      <img className="w-[50px]" src={logo} alt="Logo" />
       <h1 className="hidden md:block pl-2">nithinthelordest@gmail.com</h1>
       <ul className="flex flex-wrap justify-evenly w-1/2 mr-10 list-none items-center md:hidden">
-        <li className="pr-3"><Link to="/">Home</Link></li>
-        <li className="pr-3"><Link to="/about">About</Link></li>
-        <li className="pr-3"><Link to="/portfolio">Portfolio</Link></li>
-        <li className="pr-3"><Link to="/services">Services</Link></li>
-        <li className="pr-3"><Link to="/experience">Experiences</Link></li>
-        <li className="pr-3"><Link to="/contact">Contact</Link></li>
-        <li className="pr-3"><Link onClick={onButtonClick}>Resume</Link></li>
+        <li><Link className="no-underline pr-3 text-white" to="/">Home</Link></li>
+        <li><Link className="no-underline pr-3 text-white" to="/about">About</Link></li>
+        <li><Link className="no-underline pr-3 text-white" to="/portfolio">Portfolio</Link></li>
+        <li><Link className="no-underline pr-3 text-white" to="/services">Services</Link></li>
+        <li><Link className="no-underline pr-3 text-white" to="/experience">Experiences</Link></li>
+        <li><Link className="no-underline pr-3 text-white" to="/contact">Contact</Link></li>
+        <li><Link className="no-underline pr-3 text-white" onClick={onButtonClick}>Resume</Link></li>
       </ul>
     </nav>
   );

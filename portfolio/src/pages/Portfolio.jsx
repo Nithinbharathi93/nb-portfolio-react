@@ -1,6 +1,8 @@
 const Portfolio = () => {
     return (
-        <h1>Look at my Portfolio</h1>
+        <div className="flex justify-center items-center h-screen">
+            <h1 className="text-4xl text-white font-bold">Look at my Portfolio</h1>
+        </div>
     );
 }
 
